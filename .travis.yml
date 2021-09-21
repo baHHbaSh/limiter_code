@@ -24,7 +24,7 @@ install:
   - pip3 install --upgrade Cython==0.29.19 virtualenv
   - export PATH=$PATH:~/.local/bin/
   - ls -l
-  - yes | buildozer android debug
+  - yes | travis_wait 30 buildozer android debug
   - ls -l
   - ls bin/ -l
   - echo "TODO"
