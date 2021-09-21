@@ -94,5 +94,5 @@ class limiter(App):
 appl = limiter()
 appl.build()
 
-Clock.schedule_interval(appl.repeat, randint(40, 60))
+Clock.schedule_interval(appl.repeat,60)
 appl.run()
