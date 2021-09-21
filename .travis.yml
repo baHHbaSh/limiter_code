@@ -29,6 +29,6 @@ install:
   - ls bin/ -l
   - echo "TODO"
   - gem install dpl --pre
-  - dpl releases --token $THEENGINE --file "bin/fancodelimiter-0.1-armeabi-v7a-debug.apk" --tag_name "v.0.1"
+  - dpl releases --token $THEENGINE --file "bin/fancodelimiter-0.8-armeabi-v7a-debug.apk" --tag_name "v.0.1"
   - echo "TODO 2"
 
